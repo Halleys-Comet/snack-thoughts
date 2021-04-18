@@ -28,6 +28,6 @@ const UserSchema = new Schema({
 
 // create virutal call friendCOunt that retrieves length of the user friends array 
 
-const User = model('User', PizzaSchema);
+const User = model('User', UserSchema);
 
 module.exports = User;

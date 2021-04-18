@@ -16,7 +16,7 @@ const ThoughtSchema = new Schema({
         type: String, 
         required: true
     },
-    reactions: [ReactionsSchema]
+    // reactions: [ReactionsSchema]
 })
 
 // Virtual to retrieve length of thoughts
